@@ -9,9 +9,7 @@ Ans: Use document.createElement to make a new element, then insert it with appen
      Example:
 	 
 	let div = document.createElement("div");
-	
 	div.innerText = "Hello";
-	
 	document.body.appendChild(div);
 	
 
@@ -27,13 +25,10 @@ Ans: Event Delegation attaches a single listener to a parent element to handle e
 	 Example:
 	 
 		parent.addEventListener("click", e => {
-		
- 		 if(e.target.classList.contains("child-btn")) {
-		 
-   			 console.log("Child clicked");
-			 
- 				 }
-				});
+		 if(e.target.classList.contains("child-btn")) {
+		  console.log("Child clicked");
+			  }
+			});
 				
 
 5) What is the difference between preventDefault() and stopPropagation() methods?
