@@ -50,7 +50,7 @@ function toggleEmptySection() {
     }
 }
 
-function toggleStyle(id) {
+function toggleStyle(id){
     allFilterBtn.classList.remove("bg-sky-500", "text-white");
     interviewFilterBtn.classList.remove("bg-sky-500", "text-white");
     rejectedFilterBtn.classList.remove("bg-sky-500", "text-white");
